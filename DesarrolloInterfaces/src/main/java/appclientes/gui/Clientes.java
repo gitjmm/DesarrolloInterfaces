@@ -4,6 +4,8 @@
  */
 package appclientes.gui;
 
+//import appclientes.gui.VentanaPrincipal;
+//import appclientes.gui.Clientes;
 import appclientes.clases.Cliente;
 import java.util.Date;
 import javax.swing.table.DefaultTableModel;

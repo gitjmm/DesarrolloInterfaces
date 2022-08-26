@@ -4,6 +4,9 @@
  */
 package appclientes.gui;
 
+//import appclientesLogica.VentanaPrincipal;
+//import appclientesLogica.Clientes;
+//import appclientesLogica.Cliente;
 import appclientes.clases.Cliente;
 import javax.swing.table.DefaultTableModel;
 
@@ -29,7 +32,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         model.setColumnIdentifiers(new String[]{"Nombre","Apellido","Telefono","FechaAlta","Provinicia"});
         jTableClientes.setModel(model);
     }
-    
+    //No es necesario este método en caso de crear la lógica de negocio
     public void crearCliente(Cliente cliente){
         DefaultTableModel model = (DefaultTableModel)jTableClientes.getModel();
         //Añadimos una fila de cliente a la tabla
